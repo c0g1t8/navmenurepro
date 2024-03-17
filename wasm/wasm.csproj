@@ -9,8 +9,11 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.*-*" PrivateAssets="all" />
-    <PackageReference Include="Microsoft.FluentUI.AspNetCore.Components" Version="4.*-* " />
 	<PackageReference Include="Microsoft.FluentUI.AspNetCore.Components.Icons" Version="4.*-* " />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\fluentui-blazor\src\Core\Microsoft.FluentUI.AspNetCore.Components.csproj" />
   </ItemGroup>
 
 </Project>

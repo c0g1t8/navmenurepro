@@ -58,12 +58,15 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.FluentUI.AspNetCore.Components" Version="4.5.0" />
         <PackageReference Include="Microsoft.FluentUI.AspNetCore.Components.Icons" Version="4.5.0" />
         <PackageReference Include="Microsoft.Maui.Controls" Version="8.0.10" />
         <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="8.0.10" />
         <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Maui" Version="8.0.10" />
         <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\fluentui-blazor\src\Core\Microsoft.FluentUI.AspNetCore.Components.csproj" />
     </ItemGroup>
 
 </Project>
